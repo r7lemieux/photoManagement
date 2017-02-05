@@ -1,0 +1,17 @@
+{
+  "name": "photos",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./main.js",
+    "buildHash": "node ./commands/buildHash"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "body-parser": "latest",
+    "lodash": "^4.17.4",
+    "morgan": "latest",
+    "walk": "^2.3.9"
+  },
+  "devDependencies": {}
+}
